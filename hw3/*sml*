@@ -1,0 +1,510 @@
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:256.27 Error: unbound variable or constructor: l
+hw3-parlib.sml:258.13-258.22 Error: operator and operand don't agree [UBOUND match]
+  operator domain: 'a
+  operand:         char list
+  in expression:
+    f l
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [UBOUND match]
+  expression:  char list -> 'a * _
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser) =>
+            (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+- val it = () : unit
+- = stdIn:3.1 Error: unbound type constructor: -
+-             (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+- = stdIn:3.2-4.4 Error: syntax error: deleting  RPAREN VAL
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:256.29 Error: unbound variable or constructor: l
+hw3-parlib.sml:258.14-258.23 Error: operator and operand don't agree [UBOUND match]
+  operator domain: 'a
+  operand:         char list
+  in expression:
+    f l
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [UBOUND match]
+  expression:  char list -> 'a * _
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser) =>
+            (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+-   expression:  char list -> 'a * _
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser) =>
+            (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+- = stdIn:2.34-3.14 Error: syntax error: deleting  WILD ID TYPE
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:256.29 Error: unbound variable or constructor: l
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [UBOUND match]
+  expression:  char list -> char list * 'b
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser) =>
+            (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+- [opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:256.29 Error: unbound variable or constructor: l
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [UBOUND match]
+  expression:  char list -> char list * 'b
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser) =>
+            (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+- = = = = = = stdIn:7.15-7.28 Error: syntax error: deleting  COLON REAL ID
+stdIn:8.16-8.28 Error: syntax error: deleting  REAL ID REAL
+stdIn:8.52-8.61 Error: syntax error: deleting  OF ID
+stdIn:8.76-8.89 Error: syntax error: deleting  WITH ID
+stdIn:8.97-8.103 Error: syntax error: deleting  TYPE LBRACKET
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:256.18-256.31 Error: operator and operand don't agree [UBOUND match]
+  operator domain: char list
+  operand:         'a list
+  in expression:
+    g l
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  _ * 'b
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser,<pat> : 'a list) =>
+            let val <binding> in (<exp>,<exp>) end: 'b parser)
+val it = () : unit
+-   in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser,<pat> : 'a list) =>
+            let val <binding> in (<exp>,<exp>) end: 'b parser)
+val it = () : unit
+- = = = stdIn:2.3-2.18 Error: syntax error: deleting  IN ID COLON
+stdIn:5.31-5.35 Error: syntax error: deleting  IN LPAREN
+stdIn:5.40-5.42 Error: syntax error: deleting  COMMA ID
+stdIn:5.46-5.51 Error: syntax error: deleting  RPAREN END
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:256.29 Error: unbound variable or constructor: x
+hw3-parlib.sml:258.14-258.23 Error: operator and operand don't agree [UBOUND match]
+  operator domain: 'a
+  operand:         char list
+  in expression:
+    f l
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  'a * _
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser,<pat> : 'a list) =>
+            let val <binding> in (<exp>,<exp>) end: 'b parser)
+val it = () : unit
+- [autoloading done]
+hw3-parlib.sml:256.29 Error: unbound variable or constructor: x
+hw3-parlib.sml:258.14-258.23 Error: operator and operand don't agree [UBOUND match]
+  operator domain: 'a
+  operand:         char list
+  in expression:
+    f l
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  'a * _
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser,<pat> : 'a list) =>
+            let val <binding> in (<exp>,<exp>) end: 'b parser)
+val it = () : unit
+- = = stdIn:3.15-3.28 Error: syntax error: deleting  COLON REAL ID
+stdIn:4.16-4.29 Error: syntax error: deleting  REAL ID REAL
+stdIn:4.46-4.57 Error: syntax error: deleting  AND ID
+stdIn:4.70-4.77 Error: syntax error: deleting  LBRACKET ID
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:256.29 Error: unbound variable or constructor: l
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [UBOUND match]
+  expression:  char list -> char list * 'b
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser) =>
+            (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+- 
+Process sml finished
+- = stdIn:3.1-3.8 Error: unbound variable or constructor: Process
+stdIn:3.9-3.12 Error: unbound variable or constructor: sml
+stdIn:3.13-3.21 Error: unbound variable or constructor: finished
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [UBOUND match]
+  expression:  char list -> char list * 'b
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser) =>
+            (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+- [library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:254.5-259.15 Error: right-hand-side of clause doesn't agree with function result type [UBOUND match]
+  expression:  char list -> char list * 'b
+  result type:  'b parser
+  in declaration:
+    map =
+      (fn (<pat> : 'a -> 'b,<pat> : 'a parser) =>
+            (fn <pat> => <exp>): 'b parser)
+val it = () : unit
+- = = = stdIn:5.15-5.22 Error: syntax error: deleting  COLON REAL ID
+stdIn:5.52-5.61 Error: syntax error: deleting  OF ID
+stdIn:5.76-5.89 Error: syntax error: deleting  WITH ID
+stdIn:5.97-5.103 Error: syntax error: deleting  TYPE LBRACKET
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+datatype expr
+  = Add of expr * expr
+  | Constant of int
+  | Multiply of expr * expr
+  | Negate of expr
+type 'a parser = char list -> 'a * char list
+val parse_error = fn : string -> 'a
+val char = fn : char -> unit parser
+val list_such_that = fn : (char -> bool) -> char list parser
+val digits = fn : char list parser
+val map = fn : ('a -> 'b) * 'a parser -> 'b parser
+val it = () : unit
+- val map = fn : ('a -> 'b) * 'a parser -> 'b parser
+val it = () : unit
+- 
+stdIn:2.14-2.19 Error: syntax error: deleting  COLON LPAREN TYVAR
+stdIn:2.20-2.26 Error: syntax error: deleting  ARROW TYVAR RPAREN
+stdIn:2.29-2.41 Error: syntax error: deleting  TYVAR ID ARROW
+-  map length digits (String.explode "123()");
+
+stdIn:1.3-2.22 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: ('Z -> 'Y) * 'Z parser
+  operand:         'X list -> int
+  in expression:
+    map length
+-  map length digits (String.explode "123()") 
+= ;
+stdIn:1.3-2.22 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: ('Z -> 'Y) * 'Z parser
+  operand:         'X list -> int
+  in expression:
+    map length
+- val (3,[#"(",#")"]) = map length digits (String.explode "123()");
+stdIn:1.6-3.20 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: ('Z -> 'Y) * 'Z parser
+  operand:         'X list -> int
+  in expression:
+    map length
+-  map (length, digits) (String.explode "123()");
+
+val it = (3,[#"1",#"2",#"3",#"(",#")"]) : int * char list
+- -  digits  (String.explode "123()");
+
+val it = ([#"3",#"2",#"1"],[#"1",#"2",#"3",#"(",#")"]) : char list * char list
+- -   operator domain: ('Z -> 'Y) * 'Z parser
+  operand:         'X list -> int
+  in expression:
+    map length
+- = = = = stdIn:9.3 Error: syntax error found at IN
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:208.19 Error: unbound variable or constructor: l
+val it = () : unit
+- [opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:208.19 Error: unbound variable or constructor: l
+val it = () : unit
+- = = = = = = stdIn:7.15-7.28 Error: syntax error: deleting  COLON REAL ID
+stdIn:8.1-8.9 Error: syntax error: deleting  VAL ID EQUALOP
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+datatype expr
+  = Add of expr * expr
+  | Constant of int
+  | Multiply of expr * expr
+  | Negate of expr
+type 'a parser = char list -> 'a * char list
+val parse_error = fn : string -> 'a
+val char = fn : char -> unit parser
+val list_such_that = fn : (char -> bool) -> char list parser
+val digits = fn : char list parser
+val map = fn : ('a -> 'b) * 'a parser -> 'b parser
+val it = () : unit
+-  list_such_that Char.isDigit;
+val it = fn : char list parser
+-  digits (String.explode "123()") ;
+val it = ([#"3",#"2",#"1"],[#"1",#"2",#"3",#"(",#")"]) : char list * char list
+- [1,2,3] - [1,2]'
+stdIn:4.16 Error: illegal token
+- [1,2,3] - [1,2];
+stdIn:1.2-1.17 Error: operator and operand don't agree [overload conflict]
+  operator domain: [- ty] * [- ty]
+  operand:         [int ty] list * [int ty] list
+  in expression:
+    (1 :: 2 :: 3 :: nil) - (1 :: 2 :: nil)
+- val parse_error = fn : string -> 'a
+val char = fn : char -> unit parser
+val list_such_that = fn : (char -> bool) -> char list parser
+val digits = fn : char list parser
+val map = fn : ('a -> 'b) * 'a parser -> 'b parser
+val it = () : unit
+- stdIn:1.23-2.11 Error: syntax error: deleting  COLON ID ARROW
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:204.9-204.12 Error: unbound variable or constructor: acc
+hw3-parlib.sml:199.5-210.9 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  char list -> (char list * char list) list
+  result type:  char list parser
+  in declaration:
+    list_such_that =
+      (fn f : char -> bool => (fn <pat> => <exp>): char list parser)
+val it = () : unit
+-     list_such_that =
+      (fn f : char -> bool => (fn <pat> => <exp>): char list parser)
+val it = () : unit
+- = = = stdIn:4.1 Error: syntax error found at VAL
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:203.6-207.45 Error: types of rules don't agree [tycon mismatch]
+  earlier rule(s): char list -> char list * char list
+  this rule: char list -> (char list * char list) list
+  in rule:
+    :: (h,t) =>
+      if f h
+      then (<exp> :: <exp>,l2) :: checker (<exp>,<exp>,<exp>)
+      else (l1,<exp> :: <exp>) :: checker (<exp>,<exp>,<exp>)
+hw3-parlib.sml:202.7-207.45 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  char list * char list
+  result type:  (char list * char list) list
+  in declaration:
+    checker =
+      (fn (l,l1,l2) =>
+            (case l
+              of <pat> => <exp>
+               | <pat> => <exp>))
+hw3-parlib.sml:199.5-210.9 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  char list -> (char list * char list) list
+  result type:  char list parser
+  in declaration:
+    list_such_that =
+      (fn f : char -> bool => (fn <pat> => <exp>): char list parser)
+val it = () : unit
+-     list_such_that =
+      (fn f : char -> bool => (fn <pat> => <exp>): char list parser)
+val it = () : unit
+- = = = stdIn:4.1 Error: syntax error found at VAL
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:202.7-207.62 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  char list * char list
+  result type:  char list
+  in declaration:
+    checker =
+      (fn (l,l1,l2) =>
+            (case l
+              of <pat> => <exp>
+               | <pat> => <exp>))
+hw3-parlib.sml:199.5-210.9 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  char list -> char list
+  result type:  char list parser
+  in declaration:
+    list_such_that =
+      (fn f : char -> bool => (fn <pat> => <exp>): char list parser)
+val it = () : unit
+- hw3-parlib.sml:199.5-210.9 Error: right-hand-side of clause doesn't agree with function result type [tycon mismatch]
+  expression:  char list -> char list
+  result type:  char list parser
+  in declaration:
+    list_such_that =
+      (fn f : char -> bool => (fn <pat> => <exp>): char list parser)
+val it = () : unit
+- stdIn:2.15-2.22 Error: syntax error: deleting  COLON REAL ID
+stdIn:2.51-2.60 Error: syntax error: deleting  OF ID
+stdIn:2.75-2.88 Error: syntax error: deleting  WITH ID
+stdIn:2.96-2.102 Error: syntax error: deleting  TYPE LBRACKET
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+hw3-parlib.sml:206.22-206.36 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: 'Z * 'Z list
+  operand:         'Z * char
+  in expression:
+    l1 :: h
+hw3-parlib.sml:207.22-207.36 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: 'Z * 'Z list
+  operand:         'Z * char
+  in expression:
+    l2 :: h
+val it = () : unit
+- 
+Process sml finished
+- = stdIn:3.1-3.8 Error: unbound variable or constructor: Process
+stdIn:3.9-3.12 Error: unbound variable or constructor: sml
+stdIn:3.13-3.21 Error: unbound variable or constructor: finished
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.80 [built: Mon Sep 26 11:21:22 2016]
+- use "hw3-parlib.sml";
+[opening hw3-parlib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+datatype expr
+  = Add of expr * expr
+  | Constant of int
+  | Multiply of expr * expr
+  | Negate of expr
+type 'a parser = char list -> 'a * char list
+val parse_error = fn : string -> 'a
+val char = fn : char -> unit parser
+val list_such_that = fn : (char -> bool) -> char list parser
+val digits = fn : char list parser
+val map = fn : ('a -> 'b) * 'a parser -> 'b parser
+val it = () : unit
+- digits (String.explode "123()");
+val it = ([#"3",#"2",#"1"],[#")",#"("]) : char list * char list
+-  map length digits (String.explode "123()");
+stdIn:3.2-3.44 Error: operator and operand don't agree [tycon mismatch]
+  operator domain: ('Z -> 'Y) * 'Z parser
+  operand:         'X list -> int
+  in expression:
+    map length
+-  map (length,digits)(String.explode "123()");
+val it = (3,[#")",#"("]) : int * char list
+- val it = () : unit
+- 
+= =  map (length,digits)(String.explode "123()");
+stdIn:6.6-6.14 Error: syntax error: deleting  LPAREN ID COMMA
+stdIn:6.20-6.22 Error: syntax error: deleting  RPAREN LPAREN
+- 

@@ -1,0 +1,16 @@
+Challenge Problem Implementations:
+
+1. “Speed Mode”
+	⁃	Press f to activate Speed Mode where blocks fall twice as fast
+	⁃	Score increases by 100 while in speed mode and decreases by 100 if the user decides to go back to the normal speed before the game ends
+
+2. “Speed Mode” Indicator
+	⁃	Shows whether speed mode is currently activated or not.
+	⁃	Dynamically changes as user changes their selection
+	⁃	Located on bottom left, near buttons
+
+3. Game Over Label
+	⁃	Shows a final message once game has ended
+	⁃	Includes player’s final score 
+
+ 

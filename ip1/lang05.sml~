@@ -1,0 +1,59 @@
+(* The previous language had variables, but they were kind of useless
+   since there was no way to introduce bindings. This language
+   introduces bindings. *)
+
+(* Start by copying your code from the previous file. *)
+
+(* Problem 1: Introduce a new datatype (after `expr` but before
+   everything else) called `binding` to represent variables. For now,
+   have `binding` consist of only a single constructor, representing
+   `val` bindings (like `val x = foo` in SML). The constructor should
+   take a string representing a variable name to bind and an
+   expression to bind it to.  *)
+
+(* Problem 2: Write a function to evaluate bindings.
+
+   Start by renaming your `eval` function to `eval_expr`.
+
+   Then define a new function, `eval_binding` which takes the current
+   dynamic environment and a binding, and returns a *new* dynamic
+   environment. `eval_binding` should evaluate the binding in an
+   analogous way to the way SML bindings are processed: first evaluate
+   the expression in the current dynamic environment (using
+   `eval_expr`), and then *extend* the environment with a new binding
+   for the variable name to the resulting value. (You need to figure
+   out exactly what "extend" means here.)
+*)
+
+(* Problem 3: Write a function to typecheck bindings.
+
+   Start by renaming `typecheck` to `typecheck_expr`.
+
+   Then write a function `typecheck_binding` that takes the current
+   static environment and a binding and returns a new static
+   environment. `typecheck_binding` should typecheck the binding in an
+   analogous way to how SML bindings are typechecked: first typecheck
+   the expression in the current static environment, and then *extend*
+   the static environment with a new binding for the variable to the
+   resulting type. (You need to figure out exactly what "extend" means
+   here.)
+*)
+
+(* Problem 4: Write a few tests for evaluating and typechecking
+   bindings. *)
+
+(* Problem 5: Implement (the core of) a REPL for our expression
+   language, by writing a function `repl` that takes a program
+   (represented as a list of bindings) and processes it, analogous to
+   how SML processes programs, starting from the empty dynamic/static
+   environment, and returns a pair of the "final" dynamic/static
+   environments.
+
+   Be careful to typecheck things before evaluating them!
+
+   Hint: define a helper function that takes the current
+   dynamic/static environments as additional arguments.
+*)
+
+(* Problem 6: write a few test "programs" (lists of bindings) for
+   your REPL, and bind them to SML variables of your choice here. *)

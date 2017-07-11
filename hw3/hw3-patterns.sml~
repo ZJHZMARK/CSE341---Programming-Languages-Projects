@@ -1,0 +1,57 @@
+(* CSE 341 Winter 2017 hw3 *)
+
+exception NoAnswer
+
+datatype pattern = WildcardP
+		 | VariableP of string
+		 | UnitP
+		 | ConstantP of int
+		 | ConstructorP of string * pattern
+		 | TupleP of pattern list
+
+datatype valu = Constant of int
+	      | Unit
+	      | Constructor of string * valu
+	      | Tuple of valu list
+
+(**** for the challenge problem only ****)
+
+datatype typ = AnythingT
+	     | UnitT
+	     | IntT
+	     | TupleT of typ list
+	     | DatatypeT of string
+
+(**** you can put all your code here ****)
+
+
+fun first_answer (f : ('a -> 'b option), l : ('a list)) : 'b = 
+  case l of
+      [] => raise NoAnswer
+    | h::t => case f(h) of
+		  NONE => first_answer(f, t)
+		| SOME v => v 
+				
+fun all_answers (f : ('a -> 'b list option), l : ('a list)) : 'b list option =
+  let
+      fun helper (acc) =
+	case l of
+	    [] => SOME(acc)
+	  | h::t => (case f(h) of
+		      NONE => NONE
+		    | SOME lst => helper(acc@lst))
+  in
+     helper([])
+  end
+
+
+fun get_string (p : pattern) =
+  case p of
+      TupleP (x::y) => (case x of
+			   VariableP (s) => s :: get_string(TupleP(y))
+			 | _ => get_string(TupleP(y)))
+    | _ => ["a"]
+					  
+  
+  
+  

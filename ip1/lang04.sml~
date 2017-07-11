@@ -1,0 +1,62 @@
+(* So far, our language has been completely "constant", in the sense
+   that everything boiled down to either integer or boolean constants.
+   This file takes one step towards writing more interesting programs
+   by adding variables to the language. *)
+
+(* Start by copying your code from the previous language here. *)
+
+(* Problem 1: add a new constructor to `expr` to represent
+   variables. (Represent variable names as strings.) *)
+
+(* Recall that, in SML, the way variables are evaluated is by looking
+   them up in the dynamic environment. We'll do the same in our little
+   expression language. So far, our evaluator hasn't needed a dynamic
+   environment, because the language was so simple, but now it's time
+   to introduce one. *)
+
+(* You may find the following type abbreviation useful. Uncomment it,
+   and place it somewhere after your `value` datatype binding but
+   before the evaluator. *)
+
+(* type dynamic_environment = (string * value) list *)
+
+(* Problem 2: Write a function `lookup` that takes a dynamic
+   environment and a variable name, and looks up that variable's value in
+   the dynamic environment.
+
+   If the variable is not in the environment, raise SML's builtin
+   `Empty` exception.
+*)
+
+(* Problem 3: Implement variables in the evaluator.
+
+   First, add a new argument to the evaluator for the dynamic
+   environment. Change all the existing recursive calls to pass the
+   dynamic environment through.
+
+   Next, add a new case to handle variables, which just uses `lookup`
+   to look up the variable's value in the dynamic environment. *)
+
+(* You may find the following type abbreviation useful. Uncomment it,
+   and place it somewhere after your `ty` datatype binding but before
+   the typechecker. *)
+
+(* type static_environment = (string * ty) list *)
+
+(* Problem 4: Implement variables in the typechecker.
+
+   First, add a new argument to the typechecker for the static
+   environment. Change all the existing recursive calls to pass the
+   static environment through.
+
+   Next, add a new case to handle variables, which just uses `lookup`
+   to look up the variable's type in the static environment.
+
+   If your `lookup` function won't work, think about why. Then try
+   deleting some type annotations and seeing whether that helps. *)
+
+(* Problem 5: Write a few tests for evaluating and typechecking
+   variables and bind them here to SML variables of your choice. Since
+   our expression language does not yet have any way of actually
+   binding variables, you will have to manually construct the
+   dynamic/static environments in order to run your tests. *)
