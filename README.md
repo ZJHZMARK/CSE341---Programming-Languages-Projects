@@ -1,1 +1,2 @@
 # CSE341---Programming-Languages-Projects
+This repo contains all projects and assignments completed in the CSE 341 course. The languages used range from SML, Racket, Ruby and Java. They are meant to lay the foundational base of programming and teach techniques that will further benefit my performance in future coding projects. Aspects like good commenting, syntax, proper looping, and code optimization factor into the purpose behind completeing these various coding projects through the year.  
