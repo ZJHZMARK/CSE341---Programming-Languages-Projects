@@ -1,5 +1,4 @@
 (* Tejveer Rai - HW1 *)
-
 (*1. is_older *)
 fun is_older (x: (int*int*int), y:(int*int*int)) : bool =
   if
